@@ -20,6 +20,8 @@ public class TestSpringFramework {
 		Student student = (Student) beanFactory.getBean("student");
 		// 测试对象是否可用
 		System.out.println(student);
+
+        System.out.println("Test trigger");		
 	}
 
 }
